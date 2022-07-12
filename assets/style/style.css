@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fontePrincipal: 'Lexend Deca', sans-serif; 
+}
+
+body {
+    background: #F3F5F7;
+}
+
+.cabecalho {
+    background: linear-gradient(90deg, #574AE8, #3EA1DB);
+    height: 250px;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#blocoHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: auto;
+}
+
+.logoEscrita,
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--fontePrincipal);
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 41px;
+}
+
+.inputPesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 73px;
+}
+
+input::placeholder {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 0.5;
+    text-indent: 10px;
+}
+
+#pesquisa {
+    width: 900px;
+    height: 65px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    text-indent: 10px;
+}
+
+#fundoCinza {
+    background: #F3F5F7;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.artigoBlog {
+    width: 900px;
+    margin: 0 auto;
+    padding: 15px 20px 20px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+    font-family: var(--fontePrincipal);
+    margin-bottom: 50px;
+}
+
+.tituloBlog {
+    padding-top: 22px;
+    padding-bottom: 8px;
+    font-family: var(--fontePrincipal);
+    font-weight: 400;
+    font-size: 26px;
+    color: #1A202C;
+}
+
+.txtBlog {
+    font-family: var(--fontePrincipal);
+    font-weight: 400;
+    font-size: 18px;
+    color: #717171;
+}
+
+.dataHeart {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data {
+    font-family: var(--fontePrincipal);
+    font-weight: 400;
+    font-size: 16px;
+    color: #717171;
+}
